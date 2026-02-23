@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>S Denysenko | Personal Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 350px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .emoji {
+            font-size: 30px;
+            margin: 15px 0;
+        }
+
+        .description {
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background: linear-gradient(45deg, #ff6a00, #ee0979);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+    </style>
 </head>
 <body>
-    <h1>S Denysenko</h1>
-    <p>♥☻☺</p>
-    <p>Line 2</p>
-    <h1>new h1</h1>
+
+    <div class="card">
+        <h1>👨‍💻 Serhii Denysenko</h1>
+        <div class="emoji">♥ ☻ ☺</div>
+        <p class="description">
+            Вітаю на моїй персональній сторінці!
+            Я вивчаю Python, HTML, CSS та JavaScript 🚀
+        </p>
+        <button onclick="alert('Дякую за клік! 😊')">
+            Натисни мене
+        </button>
+    </div>
 
 </body>
 </html>
