@@ -8,3 +8,5 @@ products = [
 #print(min_product)
 
 print(products[0]['qty'])
+for i in products:
+    print(i)
