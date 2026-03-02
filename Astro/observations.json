@@ -1,0 +1,19 @@
+[
+  [
+    {"name": "Меркурій", "temp": 167, "distance": 58, "moons": false},
+    {"name": "Земля", "temp": 15, "distance": 150, "moons": true},
+    {"name": "Марс", "temp": -65, "distance": 228, "moons": true}
+  ],
+  [
+    {"name": "Венера", "temp": 464, "distance": 108, "moons": false},
+    {"name": "Юпітер", "temp": -110, "distance": 778, "moons": true}
+  ],
+  [
+    {"name": "Сатурн", "temp": -140, "distance": 1427, "moons": true},
+    {"name": "Уран", "temp": -195, "distance": 2871, "moons": true}
+  ],
+  [
+    {"name": "Нептун", "temp": -200, "distance": 4495, "moons": true},
+    {"name": "Земля", "temp": 14, "distance": 150, "moons": true}
+  ]
+]
